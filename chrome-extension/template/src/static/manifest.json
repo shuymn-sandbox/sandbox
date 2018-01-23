@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Sandbox",
+  "version": "1.0.0",
+  "content_scripts": [{
+    "matches": [
+      "*://*/*"
+    ],
+    "js": [
+      "js/content.js"
+    ]
+  }],
+  "permissions": [
+    "*://*/*"
+  ]
+}
