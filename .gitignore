@@ -1,7 +1,8 @@
-**/dist/**
-**/node_modules/**
+dist/
+node_modules/
+vendor/
 
-**/.DS_Store
-**/.node-version
-**/mix-manifest.json
+.DS_Store
+.node-version
+mix-manifest.json
 
