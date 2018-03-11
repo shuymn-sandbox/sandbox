@@ -1,0 +1,8 @@
+{
+    "name": "shuymn/hh-fizzbuzz",
+    "description": "FizzBuzz written in HHVM/Hack",
+    "license": "MIT",
+    "require": {
+        "hhvm/hhvm-autoload": "^1.6"
+    }
+}
