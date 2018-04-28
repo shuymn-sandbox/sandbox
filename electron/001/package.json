@@ -1,0 +1,46 @@
+{
+  "name": "electron-001",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "private": true,
+  "main": "./dist/js/main.js",
+  "scripts": {
+    "s": "electron .",
+    "b": "babel ./src/js --out-dir ./dist/js"
+  },
+  "babel": {
+    "presets": ["env"]
+  },
+  "eslintConfig": {
+    "extends": ["airbnb-base", "plugin:prettier/recommended"],
+    "env": {
+      "browser": true
+    }
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "stylelint": {
+    "extends": ["./node_modules/prettier-stylelint/config.js"]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1",
+    "prettier-eslint": "^8.8.1",
+    "prettier-eslint-cli": "^4.7.1",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^9.2.0",
+    "stylelint-config-prettier": "^3.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "electron": "^1.8.4"
+  }
+}
