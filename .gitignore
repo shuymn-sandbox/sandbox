@@ -5,4 +5,6 @@ vendor/
 .DS_Store
 .node-version
 mix-manifest.json
+yarn-error.log
 
+.idea/**/workspace.xml
